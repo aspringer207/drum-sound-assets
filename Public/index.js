@@ -21,6 +21,6 @@ const tracks = [
 ];
 function player(el) {
 	const source = document.getElementById(el);
-    const str = 
-	
+	source.play();
+	const displayer = document.getElementById("display");
 }
